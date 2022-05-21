@@ -22,7 +22,7 @@ If you are using Ingress objects in your cluster (running Kubernetes older than 
 ## What is an IngressClass and why is it important for users of Ingress-NGINX controller now ?
 
 IngressClass is a Kubernetes resource. See the description below.
-Its important because until now, a default install of the Ingress-NGINX controller did not require any IngressClass object. From version 1.0.0 of the Ingress-NGINX Controller, an IngressClass object is required.
+It's important because until now, a default install of the Ingress-NGINX controller did not require any IngressClass object. From version 1.0.0 of the Ingress-NGINX Controller, an IngressClass object is required.
 
 On clusters with more than one instance of the Ingress-NGINX controller, all instances of the controllers must be aware of which Ingress objects they serve. The `ingressClassName` field of an Ingress is the way to let the controller know about that. 
 
